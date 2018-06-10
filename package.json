@@ -42,9 +42,7 @@
         "key": "tab",
         "when": "editorTextFocus && editorLangId == 'typescript' && !suggestWidgetVisible && !inSnippetMode"
       }
-    ],
-    "configurationDefaults": {
-    }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run -s compile",
