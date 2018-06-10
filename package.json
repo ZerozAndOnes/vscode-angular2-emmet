@@ -42,7 +42,12 @@
         "key": "tab",
         "when": "editorTextFocus && editorLangId == 'typescript' && !suggestWidgetVisible && !inSnippetMode"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "emmet.includeLanguages": {
+        "typescript": "html"
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "tsc -p ./",
